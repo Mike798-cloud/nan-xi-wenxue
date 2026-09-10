@@ -1,0 +1,259 @@
+{
+  "title": "南溪文学论坛最后一帖",
+  "build": "production-static-bat-output",
+  "entry": "index.html",
+  "deployment": "Cloudflare Pages / GitHub Pages / any static HTTP host",
+  "file_count_before_manifest": 50,
+  "files": [
+    {
+      "path": "404.html",
+      "bytes": 545,
+      "sha256": "abc1da88272e62e5f0faa2d590e696ced73cfcddef376e41e1ebd6f153775dbb"
+    },
+    {
+      "path": "_headers",
+      "bytes": 176,
+      "sha256": "ac3331a9cc400f34069d8d278fe28963d79f3649587841932e0e7d12b463c9e4"
+    },
+    {
+      "path": "assets/audio/reading-theme.ogg",
+      "bytes": 177942,
+      "sha256": "db3db4fae61474aa266dba7cdcbca539b97a43f0009ad501f0615e659e3f79a2"
+    },
+    {
+      "path": "assets/css/blog.css",
+      "bytes": 1702,
+      "sha256": "7d96c108968ba8f25bb40d2ae4338e0ef548d47d91d77e72a80b9e0beb8ec861"
+    },
+    {
+      "path": "assets/css/bookshop.css",
+      "bytes": 1503,
+      "sha256": "b2f33d227025be847eaba68869523e3faf758b3d00120ca1cae3c452794fe71b"
+    },
+    {
+      "path": "assets/css/common.css",
+      "bytes": 1111,
+      "sha256": "900cc72ca396929fc73be3f839127990dcb724a5f30754ec6f47d9a74e9d64f2"
+    },
+    {
+      "path": "assets/css/forum.css",
+      "bytes": 4021,
+      "sha256": "8cdba829039b71121905a3be436aef0fbeabd1270774a01a6298d618665ee712"
+    },
+    {
+      "path": "assets/css/news.css",
+      "bytes": 2115,
+      "sha256": "2fb63decaf3f2a5751b86b9bece14cfcf1a101cc98b080763add93beee286b81"
+    },
+    {
+      "path": "assets/css/novel.css",
+      "bytes": 1539,
+      "sha256": "037086b85c91294e4350a5f43f6e4dd95db4a6516edb2c4afeedc2f9b48e5268"
+    },
+    {
+      "path": "assets/css/printshop.css",
+      "bytes": 1562,
+      "sha256": "32466d480e6ec4a4b7b98827500dab96ec458bd037102879a0b1c07c55a5c929"
+    },
+    {
+      "path": "assets/css/publisher.css",
+      "bytes": 1803,
+      "sha256": "c401f4196613c70a686d539834dfb8c094253a3ea2dfaa0ef56f0e00ad34768a"
+    },
+    {
+      "path": "assets/css/reader.css",
+      "bytes": 1591,
+      "sha256": "b457f20b614e4e3fe4afea186b51f4cdee7f525a55961629491b1518ba21f484"
+    },
+    {
+      "path": "assets/css/school.css",
+      "bytes": 2099,
+      "sha256": "b76f1953211fa73eca5617c781d306d82ff204e45c40b115d3de13eb600f4edb"
+    },
+    {
+      "path": "assets/css/teachers.css",
+      "bytes": 1654,
+      "sha256": "29f613aac889e863ee3224025194cbf2897a36bd084a5930ca1a187f90457b22"
+    },
+    {
+      "path": "assets/css/writers.css",
+      "bytes": 1382,
+      "sha256": "82f8253d2c5911e2ebdd3d8dbd1ccbfecc7c8669d782023397815a3fb522366c"
+    },
+    {
+      "path": "assets/images/bookshelf.webp",
+      "bytes": 9578,
+      "sha256": "332421477e31062c13e5317199ee58e2ea665eab1fef1cf0991196d55d0aa774"
+    },
+    {
+      "path": "assets/images/bookshop-front.webp",
+      "bytes": 14512,
+      "sha256": "5302a82957cd1caa9d673f857b93b97fca9e3ec93a2955eadb645f7865c7861c"
+    },
+    {
+      "path": "assets/images/bookshop-inside.webp",
+      "bytes": 13306,
+      "sha256": "bc33db098b6b47365c2dde000f1aff71e0d94dfd59d5cf8bdd830c1f7b27e7a2"
+    },
+    {
+      "path": "assets/images/bus-interior.webp",
+      "bytes": 7184,
+      "sha256": "43b9254d24a6eb8888cd0a8fb39b64aa456269412ae00e6c82302f876f45aec1"
+    },
+    {
+      "path": "assets/images/classroom.webp",
+      "bytes": 8786,
+      "sha256": "36e2ab475e35847b8e641d97359718bce4efbc9a8931bf80449ee4296b0f5ef8"
+    },
+    {
+      "path": "assets/images/copier.webp",
+      "bytes": 8340,
+      "sha256": "45605d7de67e2ef9b9797cc873325efaaa805618afa3c6ae2609c9b5c5b44b05"
+    },
+    {
+      "path": "assets/images/corridor.webp",
+      "bytes": 7218,
+      "sha256": "c0d0bb5b1b8d5e405f0cb78df94672f062f3ddd49e564cefdf4d231b0e2b0ed6"
+    },
+    {
+      "path": "assets/images/literary-club.webp",
+      "bytes": 8070,
+      "sha256": "2f1df8325d35cb2d5953dc4e9e2a8a013d2724070e762331c6d00f220ee18b46"
+    },
+    {
+      "path": "assets/images/literary-magazines.webp",
+      "bytes": 5942,
+      "sha256": "7761db0954e5e4d8d292511cf373071f471460c1ca6317f32c82fd4414da491f"
+    },
+    {
+      "path": "assets/images/locust-window.webp",
+      "bytes": 9868,
+      "sha256": "de5b1d04ec790b3398ae5f404ee83c17bf3d554fd50acf915d44ef521083cd19"
+    },
+    {
+      "path": "assets/images/nanxi-dusk.webp",
+      "bytes": 10704,
+      "sha256": "b84a13e867f06278763c770fe04cf4567b06fd96d5cfbd6c9b0b7d2da75e2ed3"
+    },
+    {
+      "path": "assets/images/print-counter.webp",
+      "bytes": 8962,
+      "sha256": "3b1216cb9590bc91670d0ea1b4a1c3d3a700bd967894fb4d8bee7da7248b1fd5"
+    },
+    {
+      "path": "assets/images/rain-window.webp",
+      "bytes": 11964,
+      "sha256": "c9eada5ab09e4d8904e0d809482e0bad5a7308d53a0b20320690b25193f92745"
+    },
+    {
+      "path": "assets/images/reading-room.webp",
+      "bytes": 7510,
+      "sha256": "73d9cd76c624eb30a0fa01a1412a917e3d3d6e1addb60924cdf33a22bc0032f3"
+    },
+    {
+      "path": "assets/images/teacher-office.webp",
+      "bytes": 7120,
+      "sha256": "e53cace294627a944f955db3aaa7844ede736325419319445bb20bb703603306"
+    },
+    {
+      "path": "assets/images/zine-desk.webp",
+      "bytes": 7570,
+      "sha256": "409b50e2845a00dc876a9b5c5e40832a591484aa9f55db5de742e233ea3c9d43"
+    },
+    {
+      "path": "assets/js/common.js",
+      "bytes": 1105,
+      "sha256": "1f638687cb3e55d4659c5eec0e5c6c29d8e32869dc74a10f637d8008f99408d2"
+    },
+    {
+      "path": "blog/index.html",
+      "bytes": 5086,
+      "sha256": "a347a985a557103b5d6834c5dfd95fb5141ce922c227f8df599431a6cab020a7"
+    },
+    {
+      "path": "bookshop/index.html",
+      "bytes": 4712,
+      "sha256": "8acf86684b4e197810f7459a9bfd49bcda08186397d1b93605b6d4a07fac0829"
+    },
+    {
+      "path": "forum/about.html",
+      "bytes": 1407,
+      "sha256": "653a79a7919f73428419c8c632ea5a058e6fff5b786a18a966a59b63145336ad"
+    },
+    {
+      "path": "forum/author.html",
+      "bytes": 6383,
+      "sha256": "45913395a411ba8a80d258c34b5cf53f6337ac3c184af615429b9d5ce3e80e14"
+    },
+    {
+      "path": "forum/draft.html",
+      "bytes": 1804,
+      "sha256": "7efe2656d4d4d214647c5198a8735137df7cac09aec3574a13493aa62b7942b1"
+    },
+    {
+      "path": "forum/june-20080413.html",
+      "bytes": 2500,
+      "sha256": "d67138fb4ac011d07e37e5cc2028f333147e1ce16dea1780ea667b1327793961"
+    },
+    {
+      "path": "forum/river.html",
+      "bytes": 8956,
+      "sha256": "7c1f78198eb09cb2c4003050a8f0397c25522faf83a95e4625e8e2531a863a96"
+    },
+    {
+      "path": "forum/topic.html",
+      "bytes": 2407,
+      "sha256": "cbebf76e4999a4dc8036c8217ed3fc72b21a464a00607f15ba457cb2486df990"
+    },
+    {
+      "path": "index.html",
+      "bytes": 17475,
+      "sha256": "0eae6b47cea16ad2895627c6f1ad8ae1f1ef48d32624499cad72a97ebe7975dd"
+    },
+    {
+      "path": "news/index.html",
+      "bytes": 7213,
+      "sha256": "5f7336be05a1c0eda7381ffcd0587d5a36b783dd6066ad05e3384dee06ddc1b8"
+    },
+    {
+      "path": "novel/index.html",
+      "bytes": 21625,
+      "sha256": "dc3efb9b279da2d307374c87347ebc123739f39821afce992840253163effb00"
+    },
+    {
+      "path": "printshop/index.html",
+      "bytes": 3862,
+      "sha256": "6efdb08a537c98476ec31052f5067baabe4ad03abac7e290d11221187d502381"
+    },
+    {
+      "path": "publisher/index.html",
+      "bytes": 4360,
+      "sha256": "2ea85d8a38ddab6067ece34bae437abe219645d714a02ec0559999bed13930ba"
+    },
+    {
+      "path": "reader/index.html",
+      "bytes": 3202,
+      "sha256": "c612899d11c1d9b3fb793134fcc2fe0bf43acc74cf70c9255ae4bc4945de2805"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "path": "school/index.html",
+      "bytes": 4807,
+      "sha256": "30aa2fe742d191b225792035d5816d717b53fed90da8aea4f60513d2458757cd"
+    },
+    {
+      "path": "teachers/index.html",
+      "bytes": 8656,
+      "sha256": "ef9d832539e2888558761d7fccd8604110ba7d18be6a89e94e9f15c0db03c42b"
+    },
+    {
+      "path": "writers/index.html",
+      "bytes": 7216,
+      "sha256": "c8962f4ebc6250237525ece5b2bb9c82046451cbb3d42d51afe955c511ed51bf"
+    }
+  ]
+}
