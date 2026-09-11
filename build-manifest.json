@@ -3,7 +3,7 @@
   "build": "production-static-bat-output",
   "entry": "index.html",
   "deployment": "Cloudflare Pages / GitHub Pages / any static HTTP host",
-  "file_count_before_manifest": 50,
+  "file_count_before_manifest": 53,
   "files": [
     {
       "path": "404.html",
@@ -22,63 +22,63 @@
     },
     {
       "path": "assets/css/blog.css",
-      "bytes": 1702,
-      "sha256": "7d96c108968ba8f25bb40d2ae4338e0ef548d47d91d77e72a80b9e0beb8ec861"
+      "bytes": 2367,
+      "sha256": "20cea25f7f597874e68aae8de9ce74b437fe8d310399afaf47eb302cab93eddf"
     },
     {
       "path": "assets/css/bookshop.css",
-      "bytes": 1503,
-      "sha256": "b2f33d227025be847eaba68869523e3faf758b3d00120ca1cae3c452794fe71b"
+      "bytes": 3250,
+      "sha256": "cfc4d2f8e19b562a7226c11ef2ab4ff90573b463dca76c4b1d3f3ab3d9910212"
     },
     {
       "path": "assets/css/common.css",
-      "bytes": 1111,
-      "sha256": "900cc72ca396929fc73be3f839127990dcb724a5f30754ec6f47d9a74e9d64f2"
+      "bytes": 1301,
+      "sha256": "be30e21688351a66dc96bc362c4f8918a4895a338a6c0e08b1f6d81645727840"
     },
     {
       "path": "assets/css/forum.css",
-      "bytes": 4021,
-      "sha256": "8cdba829039b71121905a3be436aef0fbeabd1270774a01a6298d618665ee712"
+      "bytes": 7805,
+      "sha256": "e22a308abf84d2790638b5e77f26dddba24ecc8f64ebd3516a8541e8eeacdac0"
     },
     {
       "path": "assets/css/news.css",
-      "bytes": 2115,
-      "sha256": "2fb63decaf3f2a5751b86b9bece14cfcf1a101cc98b080763add93beee286b81"
+      "bytes": 3406,
+      "sha256": "b79dadd238b12ec5d9a7e485a5c86ef9836d810c8e67f03fe718617a00bde361"
     },
     {
       "path": "assets/css/novel.css",
-      "bytes": 1539,
-      "sha256": "037086b85c91294e4350a5f43f6e4dd95db4a6516edb2c4afeedc2f9b48e5268"
+      "bytes": 2309,
+      "sha256": "c12d44125a7d57849618fde2f8b2db8b2083a95b26ed3f885bc61dc3471966de"
     },
     {
       "path": "assets/css/printshop.css",
-      "bytes": 1562,
-      "sha256": "32466d480e6ec4a4b7b98827500dab96ec458bd037102879a0b1c07c55a5c929"
+      "bytes": 2616,
+      "sha256": "40af9918584ccf4dafc58869f62c923a0e95d5d857ee4dfb8d255c029673788c"
     },
     {
       "path": "assets/css/publisher.css",
-      "bytes": 1803,
-      "sha256": "c401f4196613c70a686d539834dfb8c094253a3ea2dfaa0ef56f0e00ad34768a"
+      "bytes": 3997,
+      "sha256": "e483d5d5dcd3f4fd03fbf855dfb1536ee6993d7d8ab0e1050ffb4f290e0a7689"
     },
     {
       "path": "assets/css/reader.css",
-      "bytes": 1591,
-      "sha256": "b457f20b614e4e3fe4afea186b51f4cdee7f525a55961629491b1518ba21f484"
+      "bytes": 1984,
+      "sha256": "9faf1b3a313f3b85f588226f583e57e6a7e5737c96d5ae3b9c0cb1d5d58971b4"
     },
     {
       "path": "assets/css/school.css",
-      "bytes": 2099,
-      "sha256": "b76f1953211fa73eca5617c781d306d82ff204e45c40b115d3de13eb600f4edb"
+      "bytes": 3916,
+      "sha256": "1137cdb7a6e32bf554c320aabfb325e310165199bca049a4ea79176517042416"
     },
     {
       "path": "assets/css/teachers.css",
-      "bytes": 1654,
-      "sha256": "29f613aac889e863ee3224025194cbf2897a36bd084a5930ca1a187f90457b22"
+      "bytes": 2988,
+      "sha256": "75da91114c3bdfba2a20989a4b4f06cbe1e9baa42c58b393932ccd4e1a955a33"
     },
     {
       "path": "assets/css/writers.css",
-      "bytes": 1382,
-      "sha256": "82f8253d2c5911e2ebdd3d8dbd1ccbfecc7c8669d782023397815a3fb522366c"
+      "bytes": 3569,
+      "sha256": "63d4e67fbbc502bf5bd7e3a88df9538c140dd6f411e7d7326591ec745d3bfd33"
     },
     {
       "path": "assets/images/bookshelf.webp",
@@ -166,74 +166,89 @@
       "sha256": "1f638687cb3e55d4659c5eec0e5c6c29d8e32869dc74a10f637d8008f99408d2"
     },
     {
+      "path": "assets/js/forum-data.js",
+      "bytes": 20079,
+      "sha256": "baedd3dc9f3ac0571073f01f2ddf96c1224f1e2aa3725f7f4da0c91cf2b49622"
+    },
+    {
+      "path": "assets/js/river-data.js",
+      "bytes": 32933,
+      "sha256": "fe5f482c7afe36f012f0d38cedcb45367dcc0d9889a54722a4a4a17df31bdc15"
+    },
+    {
       "path": "blog/index.html",
-      "bytes": 5086,
-      "sha256": "a347a985a557103b5d6834c5dfd95fb5141ce922c227f8df599431a6cab020a7"
+      "bytes": 4896,
+      "sha256": "c49a4e8f53ac2ce36dcb09254dff6cb1ba798417bbb81e0a1925d0fc7d2d7217"
     },
     {
       "path": "bookshop/index.html",
-      "bytes": 4712,
-      "sha256": "8acf86684b4e197810f7459a9bfd49bcda08186397d1b93605b6d4a07fac0829"
+      "bytes": 3918,
+      "sha256": "675ad4f231c1f4a0422d10b86b5651f1c6f90206ee9a51ed3a290f8c766104fd"
     },
     {
       "path": "forum/about.html",
-      "bytes": 1407,
-      "sha256": "653a79a7919f73428419c8c632ea5a058e6fff5b786a18a966a59b63145336ad"
+      "bytes": 2465,
+      "sha256": "2e8cb19624b9f06453eae10ca636fb908907f97f5af66bf0b5f6e3c1cd907b47"
     },
     {
       "path": "forum/author.html",
-      "bytes": 6383,
-      "sha256": "45913395a411ba8a80d258c34b5cf53f6337ac3c184af615429b9d5ce3e80e14"
+      "bytes": 2270,
+      "sha256": "900dc998a2e5ce83f58cc8b982cf621b5fd78ad425a7c2dd21b68bbe3b284745"
     },
     {
       "path": "forum/draft.html",
-      "bytes": 1804,
-      "sha256": "7efe2656d4d4d214647c5198a8735137df7cac09aec3574a13493aa62b7942b1"
+      "bytes": 1034,
+      "sha256": "a01a781ebeadb46e0e0973fb9d6fcb74b010b28f90f39f68a3260cb0c9ee18d5"
     },
     {
       "path": "forum/june-20080413.html",
-      "bytes": 2500,
-      "sha256": "d67138fb4ac011d07e37e5cc2028f333147e1ce16dea1780ea667b1327793961"
+      "bytes": 1903,
+      "sha256": "efa1af68194770b9207881c20a74dfcd13bf51539a273b0d1c56b76f3a79b56b"
+    },
+    {
+      "path": "forum/recovered.html",
+      "bytes": 1721,
+      "sha256": "922584abe877945910e103b373e9d507ff9022127d2a351106f36c08933f3a9c"
     },
     {
       "path": "forum/river.html",
-      "bytes": 8956,
-      "sha256": "7c1f78198eb09cb2c4003050a8f0397c25522faf83a95e4625e8e2531a863a96"
+      "bytes": 5803,
+      "sha256": "888c8a069ef150045aa2e04613784b92e1cc930ad4e84f22c2f16ecc8a7752fe"
     },
     {
       "path": "forum/topic.html",
-      "bytes": 2407,
-      "sha256": "cbebf76e4999a4dc8036c8217ed3fc72b21a464a00607f15ba457cb2486df990"
+      "bytes": 2882,
+      "sha256": "17eb774fb427b8dc18ed1a2856a0e9de8d94493a935b8f23e512361710db0ddc"
     },
     {
       "path": "index.html",
-      "bytes": 17475,
-      "sha256": "0eae6b47cea16ad2895627c6f1ad8ae1f1ef48d32624499cad72a97ebe7975dd"
+      "bytes": 5365,
+      "sha256": "6b705eae9f02d0c7c7cc8a06af44a345f0bb4b8d87bd72c461699920fb469aba"
     },
     {
       "path": "news/index.html",
-      "bytes": 7213,
-      "sha256": "5f7336be05a1c0eda7381ffcd0587d5a36b783dd6066ad05e3384dee06ddc1b8"
+      "bytes": 7586,
+      "sha256": "77584a2d7783c430f496dced6abb31a9dba1973d753c26ee9209d53b338434f7"
     },
     {
       "path": "novel/index.html",
-      "bytes": 21625,
-      "sha256": "dc3efb9b279da2d307374c87347ebc123739f39821afce992840253163effb00"
+      "bytes": 13779,
+      "sha256": "65a0087abfd5653ddd0e95c7c5921f0a563a2ab02811a5d9bbf312ba740d06ef"
     },
     {
       "path": "printshop/index.html",
-      "bytes": 3862,
-      "sha256": "6efdb08a537c98476ec31052f5067baabe4ad03abac7e290d11221187d502381"
+      "bytes": 3657,
+      "sha256": "6e1e0c033425bbfd468fb94db907bcbcccbca23acd2b8693f013f07ee854d4ed"
     },
     {
       "path": "publisher/index.html",
-      "bytes": 4360,
-      "sha256": "2ea85d8a38ddab6067ece34bae437abe219645d714a02ec0559999bed13930ba"
+      "bytes": 4852,
+      "sha256": "f6fad7139457c356b54ad5cd70a3573360a678361252349a0fe754e998619e1a"
     },
     {
       "path": "reader/index.html",
-      "bytes": 3202,
-      "sha256": "c612899d11c1d9b3fb793134fcc2fe0bf43acc74cf70c9255ae4bc4945de2805"
+      "bytes": 2980,
+      "sha256": "32bd63ed93bd6083662a652e6fcac44e5b065327b38740b61c4a9710ac702107"
     },
     {
       "path": "robots.txt",
@@ -242,18 +257,18 @@
     },
     {
       "path": "school/index.html",
-      "bytes": 4807,
-      "sha256": "30aa2fe742d191b225792035d5816d717b53fed90da8aea4f60513d2458757cd"
+      "bytes": 4591,
+      "sha256": "359a3d92401961f83b772d32e9fb0ed259689ea1c234f0b8566a81b5e68d1b95"
     },
     {
       "path": "teachers/index.html",
-      "bytes": 8656,
-      "sha256": "ef9d832539e2888558761d7fccd8604110ba7d18be6a89e94e9f15c0db03c42b"
+      "bytes": 7792,
+      "sha256": "25de545dae083fec85aca2ecd0280ef2907dea4a2b76b299fddf1bdabde56c32"
     },
     {
       "path": "writers/index.html",
-      "bytes": 7216,
-      "sha256": "c8962f4ebc6250237525ece5b2bb9c82046451cbb3d42d51afe955c511ed51bf"
+      "bytes": 10665,
+      "sha256": "5c294f4fe482870c449cff6fe0dee88a7b8b955da4efc414b3ba699e1190e3e3"
     }
   ]
 }
