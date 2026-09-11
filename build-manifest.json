@@ -1,6 +1,6 @@
 {
   "title": "南溪文学论坛最后一帖",
-  "build": "production-static-bat-output-publisher-book-details-v5",
+  "build": "production-static-bat-output-payment-v6",
   "entry": "index.html",
   "deployment": "Cloudflare Pages / GitHub Pages / any static HTTP host",
   "file_count_before_manifest": 69,
@@ -32,8 +32,8 @@
     },
     {
       "path": "assets/css/common.css",
-      "bytes": 1301,
-      "sha256": "be30e21688351a66dc96bc362c4f8918a4895a338a6c0e08b1f6d81645727840"
+      "bytes": 6389,
+      "sha256": "0f15c0cf1e79f9768d6f59fd44396dd04728e8f7fec24491b2a22da591c52060"
     },
     {
       "path": "assets/css/forum.css",
@@ -242,8 +242,8 @@
     },
     {
       "path": "assets/js/common.js",
-      "bytes": 1105,
-      "sha256": "1f638687cb3e55d4659c5eec0e5c6c29d8e32869dc74a10f637d8008f99408d2"
+      "bytes": 9366,
+      "sha256": "da56411d2a9cbe9a73ccfdfeecf512846e1fd79bcff39750249c96357764db30"
     },
     {
       "path": "assets/js/forum-data.js",
