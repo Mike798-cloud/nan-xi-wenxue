@@ -16,10 +16,11 @@ function normDateText(v){return String(v).trim().replace(/年|\.|\//g,'-').repla
 function hasApr13(v){const n=normDateText(v);return /2008-0?4-0?13/.test(n)||/2008\s+0?4\s+0?13/.test(n)}
 function exactFinal(term){const t=term.trim();return t==='NX-18471'||t==='18471'||t==='毕业以后第一次回来'||(t.includes('六月十一')&&hasApr13(t))}
 function exactDeleted(term){const t=term.trim().toUpperCase();return t==='NX-18472'||t==='18472'}
+function authorDateProbe(term){const t=term.trim();return t.includes('槐序')&&hasApr13(t)}
 function render(){const term=q.value.trim(),t=term.toLowerCase(),b=params.get('board')||'';const all=window.NANXI_FORUM_TOPICS.map(x=>({...x,href:'forum/topic.html?id='+x.id}));let data;
 if(!term){data=b?all.filter(x=>boardMatch(x,b)).slice(0,16):all.filter(x=>defaultIds.includes(x.id));if(!b)data.splice(2,0,river);}
-else{data=all.filter(x=>(textOf(x)).includes(t));if((river.search||'').toLowerCase().includes(t))data.unshift(river);if(exactFinal(term))data.unshift(june);if(exactDeleted(term))data.unshift(deleted);}
+else{data=all.filter(x=>(textOf(x)).includes(t));if((river.search||'').toLowerCase().includes(t)||authorDateProbe(term))data.unshift(river);if(exactFinal(term))data.unshift(june);if(exactDeleted(term))data.unshift(deleted);}
 data=data.filter(x=>boardMatch(x,b));
-rows.innerHTML=data.map(x=>`<tr><td class="topic-title"><a href="${x.href}">${x.title}</a><div class="meta">${x.code?`主题编号 ${x.code}`:(x.id?'旧主题':'连载旧帖')}</div></td><td class="hide-mobile">${x.board}</td><td class="hide-mobile">${x.author}</td><td>${x.replies}</td><td class="hide-mobile">${x.date}</td></tr>`).join('');note.hidden=!(term||b);note.textContent=term?(data.length?`搜索“${term}”：${data.length} 条匹配`:`搜索“${term}”：没有匹配。旧库里零回复主题未做全文索引，可尝试“作者 + 日期”。`):(b?`${b}：${data.length} 个主题`:'');}
+rows.innerHTML=data.map(x=>`<tr><td class="topic-title"><a href="${x.href}">${x.title}</a><div class="meta">${x.code?`主题编号 ${x.code}`:(x.id?'旧主题':'连载旧帖')}</div></td><td class="hide-mobile">${x.board}</td><td class="hide-mobile">${x.author}</td><td>${x.replies}</td><td class="hide-mobile">${x.date}</td></tr>`).join('');note.hidden=!(term||b);note.textContent=term?(authorDateProbe(term)?`搜索“${term}”：槐序当日可见记录仍只到《河水向南》第十三章。终稿备注也指向那里，可回连载末页看当天最近回复。`:(data.length?`搜索“${term}”：${data.length} 条匹配`:`搜索“${term}”：没有匹配。旧库里零回复主题未做全文索引，可尝试“作者 + 日期”。`)):(b?`${b}：${data.length} 个主题`:'');}
 form.addEventListener('submit',e=>{e.preventDefault();const next=new URLSearchParams(location.search);q.value?next.set('q',q.value):next.delete('q');history.replaceState(null,'','?'+next.toString());render();});if(params.get('q'))q.value=params.get('q');render();
 </script><script src="assets/js/common.js"></script></body></html>
